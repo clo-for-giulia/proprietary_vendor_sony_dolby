@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/sony/dolby/proprietary/vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.hardware.dms@2.0-service.rc \
-    vendor/sony/dolby/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/sony/dolby/proprietary/vendor/etc/media_codecs_dolby_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_dolby_audio.xml
 
 PRODUCT_PACKAGES += \
@@ -27,6 +26,4 @@ PRODUCT_PACKAGES += \
     liboem_specific \
     vendor.dolby.hardware.dms@2.0-impl \
     vendor.dolby.hardware.dms.xml \
-    vendor.dolby.media.c2@1.0-service.xml \
-    vendor.dolby.hardware.dms@2.0-service \
-    vendor.dolby.media.c2@1.0-service
+    vendor.dolby.hardware.dms@2.0-service
